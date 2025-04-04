@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #f4b400;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #f4b400;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Hero Section */
+.hero-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-container span {
+    color: #f4b400;
+}
+
+.hero-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero-container .btn {
+    background-color: #f4b400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero-container .btn:hover {
+    background-color: #ff9f00;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.project a:hover {
+    color: #f4b400;
+}
